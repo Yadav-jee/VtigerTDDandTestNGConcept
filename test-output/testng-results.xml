@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application is logged-in succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Application is logged-in succesfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-02T08:49:43 IST" name="VtigerTestSuit" finished-at="2023-12-02T08:50:12 IST" duration-ms="29210">
+    <groups>
+    </groups>
+    <test started-at="2023-12-02T08:49:43 IST" name="MarketingTestSuit" finished-at="2023-12-02T08:50:12 IST" duration-ms="29210">
+      <class name="Evs.test.TestAutomation">
+        <test-method is-config="true" signature="BeforeSuit()[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:49:42 IST" name="BeforeSuit" finished-at="2023-12-02T08:49:43 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuit -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:49:43 IST" name="BeforeTest" finished-at="2023-12-02T08:49:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:49:43 IST" name="BeforeClass" finished-at="2023-12-02T08:49:48 IST" duration-ms="5472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:49:48 IST" name="BeforeMethod" finished-at="2023-12-02T08:49:55 IST" duration-ms="7226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Evs.test.TestAutomation.hello1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Application is logged-in succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="hello1()[pri:1, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:49:55 IST" name="hello1" finished-at="2023-12-02T08:49:55 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello1 -->
+        <test-method is-config="true" signature="AfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:49:55 IST" name="AfterMethod" finished-at="2023-12-02T08:50:02 IST" duration-ms="6394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hello1 status=SUCCESS method=TestAutomation.hello1()[pri:1, instance:Evs.test.TestAutomation@4bb33f74] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Evs.test.TestAutomation.hello1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:50:02 IST" name="BeforeMethod" finished-at="2023-12-02T08:50:06 IST" duration-ms="4430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Evs.test.TestAutomation.hello2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Application is logged-in succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="hello2()[pri:3, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:50:06 IST" name="hello2" finished-at="2023-12-02T08:50:06 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello2 -->
+        <test-method is-config="true" signature="AfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:50:06 IST" name="AfterMethod" finished-at="2023-12-02T08:50:11 IST" duration-ms="5117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hello2 status=SUCCESS method=TestAutomation.hello2()[pri:3, instance:Evs.test.TestAutomation@4bb33f74] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Evs.test.TestAutomation.hello2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:50:11 IST" name="AfterClass" finished-at="2023-12-02T08:50:12 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:Evs.test.TestAutomation@4bb33f74]" started-at="2023-12-02T08:50:12 IST" name="AfterSuit" finished-at="2023-12-02T08:50:12 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuit -->
+      </class> <!-- Evs.test.TestAutomation -->
+    </test> <!-- MarketingTestSuit -->
+  </suite> <!-- VtigerTestSuit -->
+</testng-results>
