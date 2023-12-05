@@ -11,19 +11,20 @@ public class PracticeSession extends BaseClass {
 
 	private static WebUtil wt = WebUtil.GetWebUtilInstance();
 	private static CommonPage crc;
+	int a;
 
 	@Test
 	public void Main() {
 
 		Reporter.log("this is Main method", true);
-		
+
 //		crc = new CommonPage(wt);
 
 //		Assert.assertEquals(11, 15);
 
 //		crc.goToMarketingAccountsPage();
 //		wt.getExtest().log(Status.FAIL, "Method executed Successfully");
-
+		System.out.println("hello baby");
 	}
 
 	@Test(priority = 2)
