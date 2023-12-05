@@ -16,7 +16,7 @@ public class PracticeSession extends BaseClass {
 	public void Main() {
 
 		Reporter.log("this is Main method", true);
-		System.out.println("hellena...");
+		
 //		crc = new CommonPage(wt);
 
 //		Assert.assertEquals(11, 15);
